@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>A random survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">A Random Survey Form</h1>
+    <p id="description">This is a survey conducted by Albert Young</p>
+    <form id="survey-form">
+      <label id="email-label">Show me your email<input type="email" id="email" placeholder="put your email here" required/></label>      
+      <label id="name-label">Show me your name<input type="text" id="name" placeholder="put your name here" required/></label>
+      <label id="number-label">Show me your number<input type="number" id="number" placeholder="put your number here" required min="20" max="30"/></label>
+      <select id="dropdown">
+        <option>First option</option>
+        <option>Second option</option>
+      </select>
+      <label><input type="radio" name="radiobutton" value="choose"/>Choose this!</label>
+      <label><input type="radio" name="radiobutton" value="cheese"/>Cheese this!</label>
+      <label><input value="firstbox" type="checkbox"/>First box</label>
+      <label><input value="secondbox" type="checkbox"/>Second box</label>
+      <label><textarea placeholder="Put something here"></textarea></label>
+      <label><input type="submit" id="submit"/></label>
+    <form>
+  </body>
+</html>
